@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #011627e6;
+    font-family: sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    color: #011627e6;
+  }
+  
+  .header {
+    background-color: #2ec4b6;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  main {
+    width: 20rem;
+    margin: auto;
+  }
+  
+  .new-msg,
+  .load-more-btn {
+    border: 2px solid #ff9f1c;
+    background: transparent;
+    text-transform: capitalize;
+    color: #ff9f1c;
+    border-radius: 7px;
+    transition: all 300ms;
+  }
+  
+  .new-msg {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    padding: 9px 0;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .load-more-btn {
+    display: block;
+    margin: 0 auto 1.5rem;
+    width: 8rem;
+    font-size: 1rem;
+    padding: 6px 0;
+  }
+  
+  .new-msg:hover,
+  .load-more-btn:hover {
+    background-color: #ff9f1c;
+    color: white;
+  }
+  
+  /* message */
+  .message {
+    border: 1px solid #9e9e9e8c;
+    margin: 0 0 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 7px;
+    box-shadow: 0px 3px 5px 0px #8080804d;
+  }
+  
+  .title {
+    padding-bottom: 7px;
+  }
+  
+  .body {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #2ec4b6;
+  }
+  
+  .msg-footer {
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .username {
+    font-size: 14px;
+  }
+  
+  .username span {
+    font-weight: 600;
+  }
+  
+  .icon-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .bin,
+  .pencil {
+    height: 1.8rem;
+    width: 1.8rem;
+    background: transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+  }
+  
+  .bin {
+    border: 1px solid #e71d36;
+  }
+  
+  .bin:hover {
+    background-color: #e71d36;
+  }
+  
+  .pencil {
+    border: 1px solid #ff9f1c;
+  }
+  
+  .pencil:hover {
+    background-color: #ff9f1c;
+  }
+  
+  .binIcon,
+  .pencilIcon {
+    height: 1.3rem;
+    width: 1.4rem;
+  }
+  
+  .binIcon {
+    fill: #e71d36;
+  }
+  
+  .bin:hover .binIcon {
+    fill: white;
+  }
+  
+  .pencilIcon {
+    stroke: #ff9f1c;
+  }
+  
+  .pencil:hover .pencilIcon {
+    stroke: white;
+  }
+  
+  /* message form */
+  
+  .loader,
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .modal {
+    box-shadow: 0px 1px 5px 0px #8080804d;
+    border-radius: 7px;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: white;
+    z-index: 10;
+  }
+  
+  .input-container {
+    width: 18rem;
+    border: 1px solid #2ec4b6;
+    border-radius: 7px;
+    margin-top: 1.2rem;
+  }
+  
+  input,
+  textarea {
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+  
+  input {
+    border: 0;
+  }
+  
+  textarea {
+    border-right: none;
+    border-left: none;
+    resize: none;
+    border-color: #2ec4b6;
+    height: 5rem;
+  }
+  
+  .form-title {
+    font-size: 1.3rem;
+    border-radius: 7px;
+  }
+  
+  .form-username {
+    border-radius: 7px;
+  }
+  
+  .modal button {
+    width: 18rem;
+    border-radius: 7px;
+    border: 1px solid #2ec4b6;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    background: #2ec4b6;
+    font-weight: bold;
+  }
+  
+  .modal svg {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+  }
+  
+  /* footer */
+  footer {
+    padding: 1.5rem 0;
+  }
+  
+  footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  
+  .heart {
+    color: red;
+    font-size: 1.3rem;
+  }
+  
+  footer a:hover {
+    color: #009688;
+  }
+  
+  /* overlay */
+  .overlay {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000075;
+  }
+  
+  @media screen and (min-width: 701px) {
+    main {
+      width: 40rem;
+    }
+  
+    .modal {
+      width: 35rem;
+    }
+  
+    .modal button,
+    .input-container {
+      width: 30rem;
+    }
+  }

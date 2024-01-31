@@ -1,0 +1,33 @@
+ .font-h1{
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+.font-h2{
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ .font-form-head{
+    font-family: fantasy;
+ }
+
+ .form-signin-button{
+    background-color: #198754 ;
+    border-color: #198754 ;
+ }
+
+ .form-signin-button:hover{
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+ }
+ 
+ .button-anchor{
+    color: white;
+ }
+
+ .button-anchor:hover{
+    color: white;
+ }

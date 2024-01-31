@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+.login-with-code-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  align-items: center;
+}
+.login-with-code {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  max-width: 500px;
+}
+
+.login-with-code h1 {
+  margin: 0px 0px 1.5rem;
+  padding: 0px;
+  color: rgb(40, 42, 43);
+  font-size: 2rem;
+  line-height: 2.75rem;
+  font-weight: 1000;
+}
+
+.login-with-code h6 {
+  margin: 0px 0px 1.5rem;
+  padding: 0px;
+  color: rgb(40, 42, 43);
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.login-with-code button {
+  font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background: none rgb(2, 122, 197);
+  box-shadow: rgb(2 122 197) 0px 0px 0px 1px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  width: 5rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: background-color 100ms ease-in 0s, box-shadow 100ms ease-in 0s,
+    color 100ms ease-in 0s;
+}
+
+.login-with-code button:hover {
+  background-color: rgb(3, 44, 94);
+  box-shadow: rgb(3 44 94) 0px 0px 0px 1px;
+}
+label {
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.login-with-code input {
+  color: rgb(40, 42, 43);
+  font-size: 0.875rem;
+  font-family: 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  line-height: 2rem;
+  font-variant-numeric: tabular-nums;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(136 140 142) 0px 0px 0px 1px;
+  border-radius: 4px;
+  transition: box-shadow 100ms ease-in 0s;
+  cursor: text;
+  letter-spacing: -0.01em;
+  border-style: none;
+  padding-left: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+.login-with-code input:hover {
+  border-color: -internal-light-dark(rgb(47, 143, 208), rgb(45, 113, 202));
+  box-shadow: rgb(21, 149, 213) 0px 0px 0px 1px;
+}
+.login-with-code a {
+  box-sizing: border-box;
+  color: rgb(0, 94, 166);
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  outline: none;
+  text-decoration: underline;
+}
