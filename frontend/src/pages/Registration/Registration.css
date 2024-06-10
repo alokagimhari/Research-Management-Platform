@@ -1,0 +1,21 @@
+.cards-space{
+    margin-inline: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.font-form-head-2{
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-font{
+    font-weight: 100;
+}
+.dob{
+    margin-top: 18px;
+}
+.button-gap{
+    margin-inline: 30px;
+}
+.organization-scale{
+    margin-bottom: 18px;
+}

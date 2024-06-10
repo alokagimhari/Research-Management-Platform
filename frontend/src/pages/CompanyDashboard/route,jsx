@@ -1,0 +1,13 @@
+import React from "react";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import RequestTable from './pages/CompanyDashboard/ProposalRequest/RequestTable';
+import AddRequest from './pages/CompanyDashboard/ProposalRequest/AddRequest';
+<Route render={(props)=>(
+            <Layout {...props}>
+          <Route exact path={"/companydashboard"} element={<CompanyDashboard/>} />
+          <Route path="/requestTable" element={<RequestTable/>} />
+          <Route path="/addRequest" element={<AddRequest/>} />
+          <Route path='/Companyreview' element={<Review/>}/>
+          <Route path="/message" element={<Messages/>}/>
+          </Layout>
+          )}/>
