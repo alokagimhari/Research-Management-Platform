@@ -11,12 +11,12 @@ The Research Management System is a web-based platform designed to streamline an
 
 ## Tech Stack
 
-| Technology   | Logo                                                                                              |
+| Technology                                                                                                       |
 |--------------|---------------------------------------------------------------------------------------------------|
-| **Frontend** | ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg =100x100)             |
-| **Backend**  | ![Node.js](https://nodejs.org/static/images/logo.svg =100x100)                                    |
-| **Database** | ![MongoDB](https://www.mongodb.com/assets/images/global/leaf.svg =100x100)                        |
-| **PM Tool**  | ![GitScrum](https://gitscrum.com/assets/images/home/brand-logos/GitScrum-logo.png =100x100)       |
+| **Frontend** | React                                                                                             |
+| **Backend**  | NodeJS                                                                                            |
+| **Database** | Mongodb                                                                                           |
+| **PM Tool**  | GitScrum
 
 ## How to Run
 1. Clone the repository:
